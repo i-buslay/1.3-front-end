@@ -258,7 +258,7 @@ article {
     margin-left: 16px;
 }
 
-.style-article:hover .style-article__text{
+.style-article:active .style-article__text{
     height: auto;
 }
 
