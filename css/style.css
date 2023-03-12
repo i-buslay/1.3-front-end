@@ -39,12 +39,14 @@ button {
     padding: 0;
     border: none;
     font-family: "TTLakes";
+    background-color: transparent;
 }
 
 .right-menu button {
     padding: 0;
     border: none;
     font-family: "TTLakes";
+    background-color: transparent;
 }
 
 .left-menu__navicon {
@@ -117,6 +119,7 @@ h1 {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.2px;
+    background-color: transparent;
 }
 
 .top-title__button {
