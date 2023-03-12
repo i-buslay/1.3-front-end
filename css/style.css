@@ -31,6 +31,10 @@ header {
 
 }
 
+button {
+    cursor: pointer;
+}
+
 .left-menu button {
     padding: 0;
     border: none;
