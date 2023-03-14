@@ -14,6 +14,7 @@ main {
 header {
     min-width: 320px;
     background-color: #FFFFFF;
+    /**height: 88px;**/
     display: flex;
     padding: 19px 0;
 }
@@ -74,8 +75,8 @@ button {
 
 .right-menu__icon1::before {
     content: "";
-    background-image: url("data:image/svg+xml,%3Csvg width='2' height='32' viewBox='0 0 2 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='2' height='32' rx='1' fill='%23EAEAEA'/%3E%3C/svg%3E%0A");
-    background-size: 2px 32px;
+    background-color: #EAEAEA;
+    border-radius: 1px;
     width: 2px;
     height: 32px;
     margin-bottom: auto;
@@ -91,7 +92,7 @@ button {
 
 section {
     margin-left: 16px;
-    margin-top: 24px;
+    padding-top: 24px;
 }
 
 .top-title {
@@ -159,8 +160,8 @@ h1 {
 
 h1::before {
     content: "";
-    background-image: url("data:image/svg+xml,%3Csvg width='4' height='40' viewBox='0 0 4 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4 4C4 1.79086 2.20914 0 0 0V40C2.20914 40 4 38.2091 4 36V4Z' fill='%2341F6D7'/%3E%3C/svg%3E%0A");
-    background-repeat: no-repeat;
+    background-color: #41F6D7;
+    border-radius: 0 4px 4px 0;
     width: 4px;
     height: 40px;
     background-size: 4px 40px;
@@ -275,8 +276,8 @@ input[type=checkbox]:checked ~ .style-article .style-article__text {
 
     .left-menu__logo::before {
         content: "";
-        background-image: url("data:image/svg+xml,%3Csvg width='2' height='32' viewBox='0 0 2 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='2' height='32' rx='1' fill='%23EAEAEA'/%3E%3C/svg%3E%0A");
-        background-size: 2px 32px;
+        background-color: #EAEAEA;
+        border-radius: 1px;
         width: 2px;
         height: 32px;
         margin-bottom: auto;
