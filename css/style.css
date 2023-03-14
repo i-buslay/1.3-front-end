@@ -272,7 +272,7 @@ input[type=checkbox]:checked ~ .style-article .style-article__text {
 
 
 
-@media (min-width: 768px) {
+@media (min-device-width: 768px) {
 
     .left-menu__logo::before {
         content: "";
@@ -354,7 +354,7 @@ input[type=checkbox]:checked ~ .style-article .style-article__text {
 }
 
 
-@media (min-width: 1120px) {
+@media (min-device-width: 1120px) {
 
 
     header {
