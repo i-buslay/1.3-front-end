@@ -272,7 +272,7 @@ input[type=checkbox]:checked ~ .style-article .style-article__text {
 
 
 
-@media (min-device-width: 768px) {
+@media (min-device-width: 768px) or (orientation: landscape) {
 
     .left-menu__logo::before {
         content: "";
